@@ -1,0 +1,96 @@
+* {
+	font-family: "Inter" , sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 150%;
+}
+
+body {
+	background-image: url(alura.png);
+}
+
+header {
+	margin-left: 40px;
+}
+
+main {
+	display: flex;
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+
+.input-texto {
+	margin-top: 100px;
+}
+
+.mensagem {
+	margin-top: 30px;
+	margin-left: 50px;
+	position: static;
+	background-repeat: no-repeat;
+	background-position: 50px;
+	background-size: 300px;
+}
+
+
+.copiar:hover {
+	border-color: #0000CD;
+}
+
+.copiar:hover {
+	font-size: 34px;
+}
+
+.copiar {
+	position: static;
+	margin-top: 30px;
+	margin-left: 200px;
+	background-color: #9FB6CD;
+	color: #FFFFFF;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.encriptar {
+	background-color: #00008B;
+	color: #FFFFFF;
+}
+
+.encriptar:hover {
+	border-color: #0000CD;
+}
+
+.encriptar:hover {
+	font-size: 34px;
+}
+
+.desencriptar {
+	margin-left: 60px;
+	background-color: #9FB6CD;
+	color: #FFFFFF;
+}
+
+.desencriptar:hover {
+	font-size: 34px;
+}
+
+.desencriptar:hover {
+	border-color: #0000CD;
+}	
+
+.informacao {
+	font-size: 15px;
+
+}
+
+
+.copyright {
+	text-align: center;
+	color: #000000;
+	font-size: 13px;
+	margin: 800px 0 0;
+	

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Codificador</title>
+
+		<link rel="stylesheet">
+		<link rel="stylesheet"  href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+<body>
+
+ <header>
+ 	<img src="vector.png" alt="logo da alura">
+ </header>
+<main>
+
+	<section>
+		<textarea class="input-texto" cols="50" rows="10" placeholder="digite seu texto"></textarea>
+		<div>
+			<h6 class="informacao">⚠ Apenas letras minúsculas e sem acento</h6>
+		</div>
+		<div class="botoes">
+			<button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+			<button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>		
+	</section>
+
+	<section class="mensagem-box">
+		<textarea class="mensagem" cols="25" rows="15" placeholder="O texto criptografado ou descriptografado irá aparecer aqui..."></textarea>
+		<button class="copiar" onclick="copiar()">Copiar</button>
+	</div>
+	</section>
+
+	<section>
+		<p class="copyright">&copy;Desenvolvido por Kauana Moreira Leite - 2022</p>
+	</section>	
+
+</main>
+	<script src="script.js"></script>
+</body>
+</html>	
